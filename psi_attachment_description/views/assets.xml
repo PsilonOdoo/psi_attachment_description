@@ -1,0 +1,19 @@
+<odoo>
+    <record id="psi_attachment_description.assets_form_patch_999" model="ir.asset">
+        <field name="name">Website Form File Description Patch</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">psi_attachment_description/static/src/js/file_description.js</field>
+    </record>
+
+    <record id="psi_attachment_description.assets_form_patch_999_scss" model="ir.asset">
+        <field name="name">Website Form File Description Patch SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">psi_attachment_description/static/src/scss/file_block.scss</field>
+    </record>
+
+    <record id="psi_attachment_description.assets_form_patch_999_xml" model="ir.asset">
+        <field name="name">Website Form File Description Patch XML</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">psi_attachment_description/static/src/xml/file_block.xml</field>
+    </record>
+</odoo>

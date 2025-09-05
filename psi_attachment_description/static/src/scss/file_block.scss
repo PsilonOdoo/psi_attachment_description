@@ -1,0 +1,44 @@
+.s_website_form[data-vcss="001"] {
+    div.o_files_zone {
+        div.o_file_wrap {
+            i.o_file_description_btn {
+                max-width: 15%;
+                padding: 2px 4px 3px 4px;
+                color: $primary;
+                cursor: pointer;
+
+                &:hover {
+                    color: darken($primary, 7.5%);
+                }
+            }
+            i.o_file_delete{
+                max-width: 15% !important;
+            }
+            div.o_file_name{
+                max-width: 70% !important;
+            }
+
+            .o_file_description_block {
+                margin-top: 0.25rem;
+
+                .o_file_description_input {
+                    font-size: 0.85rem;
+                    border: 1px solid $o-gray-400;
+                    border-radius: 0.25rem;
+                    padding: 0.25rem 0.5rem;
+                    line-height: 1.2;
+
+                    &:focus {
+                        border-color: $primary;
+                        box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+                    }
+
+                    &::placeholder {
+                        color: $o-gray-500;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}

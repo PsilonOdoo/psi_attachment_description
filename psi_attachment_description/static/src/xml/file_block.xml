@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="website.file_block" t-inherit-mode="extension">
+        <xpath expr="//div[@class='o_file_wrap mb-1 px-2 py-1']" position="inside">
+            <i class="o_file_description_btn fa fa-comments mt-1 float-end"/>
+            <div class="o_file_description_block d-none mt-1">
+                <input type="text" class="form-control o_file_description_input" placeholder="Add description…"/>
+            </div>
+        </xpath>
+    </t>
+</templates>

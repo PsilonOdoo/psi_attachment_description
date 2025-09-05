@@ -1,0 +1,29 @@
+/** Attachment description styles **/
+.o-mail-AttachmentCard-description {
+    font-style: italic;
+    font-size: 0.85rem;
+    line-height: 1.2;
+    padding: 2px 0;
+    white-space: normal;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/** Button next to attachment (description icon) **/
+.o-mail-AttachmentCard-description-btn {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    i {
+        opacity: 0.8;
+    }
+    &:hover {
+        background-color: $gray-400;
+        i {
+            opacity: 1;
+        }
+    }
+}

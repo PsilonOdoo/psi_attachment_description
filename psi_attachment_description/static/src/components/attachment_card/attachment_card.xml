@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+    <t t-inherit="mail.AttachmentList" t-inherit-mode="extension">
+        <xpath expr="//small[hasclass('text-uppercase')]" position="after">
+            <div t-if="attachment.description"
+                 class="o-mail-AttachmentCard-description text-truncate"
+                 t-out="props.messageSearch?.highlight(attachment.description) ?? attachment.description"
+            />
+        </xpath>
+        <xpath expr="//button[@title='Remove']" position="after">
+            <button
+                    class="o-mail-AttachmentCard-description-btn btn top-0 align-items-center justify-content-center d-flex w-100 h-100 rounded-0 border-0"
+                    t-attf-class="bg-300"
+                    t-on-click.stop="() => this._onClickDescription(attachment)"
+                    title="Description">
+                    <i class="fa fa-comments" role="img" aria-label="Description"/>
+                </button>
+        </xpath>
+    </t>
+</templates>
