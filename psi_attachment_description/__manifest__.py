@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "PSI Attachment Description",
+    'name': "Forms Attachment Description",
     'summary': "Adds descriptions to attachments in Odoo.",
     'description': """This module allows you to add descriptions to attachments across any Odoo model that supports the chatter.
         Descriptions can be added in forms on the website or in the backend using the chatter.
@@ -32,6 +32,6 @@
     'auto_install': False,
     
     'images': ['static/description/banner.png'],
-    'price': 10,
-    'currency': 'USD'
+    'price': 29,
+    'currency': 'EUR'
 }
