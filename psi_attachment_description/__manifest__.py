@@ -32,6 +32,6 @@
     'auto_install': False,
     
     'images': ['static/description/banner.png'],
-    'price': 29,
+    'price': 9.99,
     'currency': 'EUR'
 }
